@@ -1,1 +1,17 @@
+Upload Project Folder on GitHub using Git Bash :
+
+      1) Download GIT BASH for windows
+      2) Change the directory to project folder      -    Cd Finexo-html
+      3) Initializing empty Git Respository in Local -    Git init
+      4) View the files present in the folder        -    Git status
+      5) Add the files in the staging area           -    git add .
+      6) Set the User Email and Name before Commit   -    git config --global user.email "Mention the User Email" [Omit --global to set the identity only in this repo]
+                                                          git config --global user.name  "Mention the User Name"
+      6) Commit the files in the Local Repo          -    git commit -m "First Commit"
+      7) Add the files to Remote Repo                -    git remote add origin "Path of Remote Repository"
+      8) Push the files to Remote Repository         -    git push -u origin master
+
+You can wait for the push to complete and then press CTRL + C to exit the process.
+
+
 
